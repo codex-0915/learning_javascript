@@ -36,3 +36,14 @@ const first_num = 4;
 const second_num = 2.33;
 const result = first_num / second_num;
 console.log(result); // NaN (not a number)
+
+// Boolean (true or false)
+const isCool = false;
+if (isCool) {
+    console.log("This is cool!!!");
+}
+else {
+    console.log("This isn't cool!!!");
+}
+const age = 20;
+console.log(age >= 20);
