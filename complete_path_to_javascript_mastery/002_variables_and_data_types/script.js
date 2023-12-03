@@ -25,3 +25,14 @@ const backticks = `Hello!!!`;
 const solve = `${2 + 3}`; // This outputs a string
 console.log(backticks);
 console.log(solve);
+console.log(typeof solve);
+
+// Numbers
+const wholeNumber = 7;
+const decimalNumber = 0.3333333;
+console.log(wholeNumber);
+console.log(decimalNumber);
+const first_num = 4;
+const second_num = 2.33;
+const result = first_num / second_num;
+console.log(result); // NaN (not a number)
