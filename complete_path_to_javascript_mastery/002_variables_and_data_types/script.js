@@ -47,3 +47,13 @@ else {
 }
 const age = 20;
 console.log(age >= 20);
+
+// Null (Value of NULL or null, means no value)
+const age2 = null;
+console.log(age2);
+console.log(typeof age2); // Type of null is object
+
+// Undefined (Value is declared but not defined 
+// [no value is assigned to it])
+let x;
+console.log(x);
