@@ -16,3 +16,12 @@ Variable Naming Rules
    (alphanumeric keyword), _, and &
 */
 
+/* Data Types */
+
+// String
+const singleQuotes = 'Hello World!';
+const doubleQuotes = 'Hello World!!';
+const backticks = `Hello!!!`;
+const solve = `${2 + 3}`; // This outputs a string
+console.log(backticks);
+console.log(solve);
