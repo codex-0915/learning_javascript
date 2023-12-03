@@ -72,3 +72,10 @@ console.log(typeof arr); // arrays are also an object
 
 const date = new Date();
 console.log(typeof date);
+
+/* Statically typed VS Dynamically typed language
+
+Statically typed: C, C++, Java
+Dynamically typed: JS, Python, Ruby
+
+*/
