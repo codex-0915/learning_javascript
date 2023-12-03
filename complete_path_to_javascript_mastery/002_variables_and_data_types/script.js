@@ -57,3 +57,18 @@ console.log(typeof age2); // Type of null is object
 // [no value is assigned to it])
 let x;
 console.log(x);
+
+// Objects
+const person = {
+	name: 'John',
+	age: 25,
+} 
+
+console.log(person); // whole object
+console.log(person.name); // just the name, uses dot notation
+
+const arr = [1,2,3,4];
+console.log(typeof arr); // arrays are also an object
+
+const date = new Date();
+console.log(typeof date);
