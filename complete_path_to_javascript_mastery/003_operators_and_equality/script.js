@@ -79,3 +79,13 @@ console.log(true && false && true); // false
 // NOT (!) => REVERSES THE BOOLEAN VALUE
 console.log(true); // false
 console.log(false); // true
+
+/* Assignment Operators */
+
+let number = 5;
+number += 6; // number = number + 6, works for all arithmetic operators
+console.log(number);
+
+let string = "Hello";
+string += ", I am Keil!";
+console.log(string);
