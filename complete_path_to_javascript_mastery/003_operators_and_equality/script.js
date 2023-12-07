@@ -41,3 +41,28 @@ console.log(a != b);
 console.log(a === b);
 // Strict Inequality
 console.log(a !== b);
+
+/* Strict VS Loose Equality */
+/* 
+    Strict Equality 
+        => Compares VALUES and DATA TYPES
+        => Return true only if both are the same
+*/
+console.log(5 === "5");
+
+/* 
+    Loose Equality 
+        => Doesn't compares DATA TYPES
+        => Should almost never use
+*/
+console.log(5 == "5");
+
+/*
+    The Good Ones: ===, !==
+    The Evil Twins: == !=
+*/
+console.log(0 == '');
+console.log(0 == '0');
+console.log('false' == false);
+console.log('0' == false);
+console.log(true == 1);
