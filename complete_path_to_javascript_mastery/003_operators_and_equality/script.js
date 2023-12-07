@@ -66,3 +66,16 @@ console.log(0 == '0');
 console.log('false' == false);
 console.log('0' == false);
 console.log(true == 1);
+
+/* Logical Operators */
+// OR (||) => AT LEAST ONE OPERAND IS TRUE => TRUE
+console.log(false || false); // false
+console.log(true || false); // true
+console.log(true || false || false); // true
+// AND (&&) => ALL OPERANDS ARE TRUE => TRUE
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(true && false && true); // false
+// NOT (!) => REVERSES THE BOOLEAN VALUE
+console.log(true); // false
+console.log(false); // true
