@@ -18,3 +18,26 @@ result = num1 % num2;
 result++;
 result--;
 console.log(result);
+
+/* Comparison Operators and Equality */
+// Comparison Operator => true or false
+const a = 5;
+const b = 10;
+
+// Greater than
+console.log(a > b);
+// Greater than or equal to
+console.log(a >= b);
+// Less than
+console.log(a < b);
+// Less than or equal to
+console.log(a <= b);
+// Equal to
+console.log(a == b);
+// Not equal to
+console.log(a != b);
+
+// Strict Equality
+console.log(a === b);
+// Strict Inequality
+console.log(a !== b);
