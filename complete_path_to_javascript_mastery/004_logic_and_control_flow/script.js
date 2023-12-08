@@ -10,3 +10,15 @@ if (age == 18) {
 else {
     console.log("You are not allowed here!");
 }
+
+/* Truthy & Falsy Values */
+
+/* 
+Falsy Values:
+-> false
+-> 0
+-> ''
+-> null
+-> undefined
+-> NaN
+*/
