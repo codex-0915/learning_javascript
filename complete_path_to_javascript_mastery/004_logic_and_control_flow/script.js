@@ -61,4 +61,16 @@ switch(superHero) {
 /* Ternary Operator */
 const age3 = 18;
 
-age3 >= 18 ? console.log('You can drive') : console.log('You cannot drive yet.'); 
+age3 >= 18 ? console.log('You can drive') : console.log('You cannot drive yet.');
+
+/* Looping - While and For Loops */
+// While Loop Iteration
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+// For Loop Iteration
+for (let j = 0; j < 10; j++) {
+    console.log(j);
+}
