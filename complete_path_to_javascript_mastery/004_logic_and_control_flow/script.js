@@ -22,3 +22,20 @@ Falsy Values:
 -> undefined
 -> NaN
 */
+
+/* 
+Logical Operators 
+'&&' => AND
+'||' => OR
+'!' => NOT
+*/
+
+const age2 = 19;
+const isCool = true;
+
+if (isCool && age2 > 18) {
+    console.log("You may enter!!!");
+}
+
+console.log('truthy' && 0 && 'test' && 999);
+console.log('truthy' || 0 || 'test' || 999);
