@@ -57,3 +57,8 @@ switch(superHero) {
         console.log("Enter a valid superhero name!");
     break;
 }
+
+/* Ternary Operator */
+const age3 = 18;
+
+age3 >= 18 ? console.log('You can drive') : console.log('You cannot drive yet.'); 
