@@ -53,3 +53,19 @@ const square2 = (num) => num * num;
 */
 const result2 = square2(12);
 console.log(result2);
+
+/* Parameters VS Arguments */
+// Parameters - used when defining a function
+// Arguments - passed when making a function call
+
+const sayHi2 = (name, age = 0) => {
+    console.log(`${name} is ${age} years old.`);
+}
+sayHi2("James", 3);
+sayHi2("Mark");
+
+const add2 = (a = 0, b = 0) => {
+    return a + b;
+}
+const result3 = add2(2);
+console.log(result3);
