@@ -36,3 +36,10 @@ function sayHi(name) {
 
 sayHi('Joe');
 sayHi('Jane');
+
+/* Function Return */
+function add(a, b) {
+    return a + b;
+}
+const sum = add(2, 3);
+console.log(sum);
