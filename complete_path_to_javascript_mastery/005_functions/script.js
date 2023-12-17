@@ -43,3 +43,13 @@ function add(a, b) {
 }
 const sum = add(2, 3);
 console.log(sum);
+
+/* Arrow Function */
+const square2 = (num) => {
+    return num * num;
+}
+/* More concise if you'll return the result quickly, you can omit the braces
+const square2 = (num) => num * num;
+*/
+const result2 = square2(12);
+console.log(result2);
