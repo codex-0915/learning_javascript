@@ -38,3 +38,25 @@ function hoist2() {
     message = 'Test';
 }
 hoist2();
+
+// Closure
+const outer = () => {
+	const outerVar = 'Hello!'
+	const inner = () => {
+		const innerVar = 'Hi!'
+		console.log(innerVar, outerVar);
+	}
+	return inner;
+}
+const innerFn = outer(); // closure, because we have access to the variables of the parent scope
+innerFn();
+
+const init = () => {
+    const hobby = 'Learning JavaScript'; // hobby is a local variable created by init
+    const displayHobby = () => { // displayHobby() is the inner function, a closure
+        console.log(hobby); // using variable declared in the parent function
+    }
+    return displayHobby;
+    }
+var myFunc = init();
+myFunc();
