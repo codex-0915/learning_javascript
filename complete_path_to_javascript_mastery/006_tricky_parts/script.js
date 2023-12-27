@@ -26,3 +26,15 @@ if(true) {
     console.log(name3); // This will work
 }
 console.log(name3); // name3 can't be found
+
+// Hoisting
+var hoist;
+console.log(hoist);
+hoist = "The variable has been hoisted."
+
+function hoist2() {
+    var message;
+    console.log(message);
+    message = 'Test';
+}
+hoist2();
