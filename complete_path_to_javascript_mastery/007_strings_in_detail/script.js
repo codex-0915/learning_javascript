@@ -21,3 +21,13 @@ console.log(total);
 console.log(rows);
 console.log(greeting);
 console.log(greeting2);
+
+// String Length and Basic Properties
+const name = 'John'
+console.log(name.length);
+
+const firstLetter = name[0];
+const lastLetter = name[name.length - 1];
+
+console.log(firstLetter);
+console.log(lastLetter);
