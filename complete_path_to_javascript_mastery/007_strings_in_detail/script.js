@@ -62,9 +62,21 @@ console.log(hobbies.startsWith('I love'));
 console.log(hobbies.endsWith(')'));
 
 /* Getting a Substring */
+
 const exampleString = 'hotdog';
 // slice()
 const firstString = exampleString.slice(0,3);
 const lastString = exampleString.slice(3);
 console.log(firstString);
 console.log(lastString);
+
+/* Split a String */
+// Split a String
+const exampleString2 = 'The quick brown fox jumps over the lazy dogs.';
+
+// split()
+const letters = exampleString2.split('');
+const words = exampleString2.split(' ');
+
+console.log(letters);
+console.log(words);
