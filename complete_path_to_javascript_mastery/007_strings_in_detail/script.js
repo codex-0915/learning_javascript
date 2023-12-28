@@ -80,3 +80,15 @@ const words = exampleString2.split(' ');
 
 console.log(letters);
 console.log(words);
+
+/* Reverse, Repeat, and Trim a String */
+const exampleString3 = 'test';
+const reversedString = exampleString3.split('').reverse().join('');
+
+console.log(reversedString);
+
+const dogSays = 'woof';
+console.log(dogSays.repeat(5));
+
+const email = '    test@email.com    ';
+console.log(email.trim());
