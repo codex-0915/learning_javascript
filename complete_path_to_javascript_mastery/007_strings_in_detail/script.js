@@ -60,3 +60,11 @@ console.log(including);
 console.log(hobbies.startsWith('I love'));
 // endsWith()
 console.log(hobbies.endsWith(')'));
+
+/* Getting a Substring */
+const exampleString = 'hotdog';
+// slice()
+const firstString = exampleString.slice(0,3);
+const lastString = exampleString.slice(3);
+console.log(firstString);
+console.log(lastString);
