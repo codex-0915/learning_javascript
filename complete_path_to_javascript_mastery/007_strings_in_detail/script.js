@@ -31,3 +31,13 @@ const lastLetter = name[name.length - 1];
 
 console.log(firstLetter);
 console.log(lastLetter);
+
+// Change String Case
+const mixedCaseString = 'Hello! How are you?';
+
+mixedCaseString.length; // this is called a property
+const lowerCaseString = mixedCaseString.toLowerCase(); // this is called method
+const upperCaseString = mixedCaseString.toUpperCase();
+
+console.log(lowerCaseString);
+console.log(upperCaseString);
