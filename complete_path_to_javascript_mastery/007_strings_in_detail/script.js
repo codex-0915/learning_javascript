@@ -2,7 +2,7 @@
 String in Details
 */
 
-// Introduction to Strings
+/* Introduction to Strings */
 const single = 'This is a string';
 const double = "This is a string";
 
@@ -22,7 +22,7 @@ console.log(rows);
 console.log(greeting);
 console.log(greeting2);
 
-// String Length and Basic Properties
+/* String Length and Basic Properties */
 const name = 'John'
 console.log(name.length);
 
@@ -32,7 +32,7 @@ const lastLetter = name[name.length - 1];
 console.log(firstLetter);
 console.log(lastLetter);
 
-// Change String Case
+/* Change String Case */
 const mixedCaseString = 'Hello! How are you?';
 
 mixedCaseString.length; // this is called a property
@@ -41,3 +41,22 @@ const upperCaseString = mixedCaseString.toUpperCase();
 
 console.log(lowerCaseString);
 console.log(upperCaseString);
+
+/* Searching for a Substring */
+const hobbies = 'I love HTML, CSS, and JavaScript (JavaScript)';
+
+// indexOf()
+const firstIndex = hobbies.indexOf('JavaScript');
+const lastIndex = hobbies.lastIndexOf('JavaScript');
+
+console.log(firstIndex, lastIndex);
+
+// includes() -> has many use cases
+const including = hobbies.includes('JavaScript');
+
+console.log(including);
+
+// startsWith()
+console.log(hobbies.startsWith('I love'));
+// endsWith()
+console.log(hobbies.endsWith(')'));
